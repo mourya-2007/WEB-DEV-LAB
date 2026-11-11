@@ -1,2 +1,43 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Flexbox vs Grid — Layout Lab</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="comparison.css"></head><body><header class="paper-header"><a class="brand" href="index.html">AM<span>.</span></a><p>LAYOUT LAB / P13</p><a href="index.html">Back to portfolio ↗</a></header><main class="container compare-page"><p class="eyebrow">P13 / CSS LAYOUT SYSTEMS</p><h1>Flexbox vs Grid.</h1><p class="compare-intro">Both tools arrange content, but they solve different layout problems. This page uses each one for the job it handles naturally.</p><div class="compare-columns"><section><div class="compare-label">01 / FLEXBOX — ONE DIMENSION</div><h2>Navigation bar</h2><p>Flexbox is ideal when items flow in one direction and need alignment or spacing along a row or column.</p><nav class="demo-nav"><strong>STUDIO</strong><a>Work</a><a>About</a><a>Contact</a></nav><div class="demo-row"><span>Logo</span><span>Links</span><span>Action</span></div><ul><li>Best for a row or a column.</li><li>Great for alignment and distribution.</li><li>Items can wrap when space is limited.</li></ul></section><section><div class="compare-label">02 / GRID — TWO DIMENSIONS</div><h2>Project gallery</h2><p>Grid is useful when rows and columns must work together to create a structured two-dimensional layout.</p><div class="demo-grid"><div>01<br><b>Research</b></div><div>02<br><b>Design</b></div><div>03<br><b>Build</b></div><div>04<br><b>Test</b></div><div class="wide">05<br><b>Launch / Review</b></div></div><ul><li>Controls rows and columns together.</li><li>Supports named areas and track sizing.</li><li>Great for galleries and page structure.</li></ul></section></div><div class="decision"><strong>Quick decision rule</strong><p>Choose Flexbox for a component's one-dimensional alignment. Choose Grid when you need control over both rows and columns. They can also be combined in the same page.</p></div></main><footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html">AM<span>.</span></a><p>CSS layout comparison · P13</p><p>© 2026 Alex Morgan</p></div></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox and Grid | Layout Practical</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="comparison.css">
+</head>
+<body>
+  <header class="paper-header">
+    <a class="brand" href="index.html">Raghav<span>.</span></a>
+    <p>LAYOUT PRACTICAL / P13</p>
+    <a href="index.html">Back to portfolio</a>
+  </header>
+  <main class="container compare-page">
+    <p class="eyebrow">P13 / CSS LAYOUT SYSTEMS</p>
+    <h1>Flexbox and Grid</h1>
+    <p class="compare-intro">Both are used to arrange elements on a page. The main difference is the type of layout each one handles well.</p>
+    <div class="compare-columns">
+      <section>
+        <div class="compare-label">01 / FLEXBOX — ONE DIMENSION</div>
+        <h2>Navigation bar</h2>
+        <p>Flexbox is useful when items need to be arranged in a row or a column, with control over alignment and spacing.</p>
+        <nav class="demo-nav" aria-label="Flexbox example"><strong>MY SITE</strong><a href="#flex-example">Home</a><a href="#flex-example">About</a><a href="#flex-example">Contact</a></nav>
+        <div class="demo-row" id="flex-example"><span>Logo</span><span>Navigation links</span><span>Button</span></div>
+        <ul><li>Works along one main direction.</li><li>Useful for aligning items.</li><li>Can wrap items when needed.</li></ul>
+      </section>
+      <section>
+        <div class="compare-label">02 / GRID — TWO DIMENSIONS</div>
+        <h2>Project gallery</h2>
+        <p>Grid is useful when the layout needs control over rows and columns at the same time.</p>
+        <div class="demo-grid"><div>01<br><b>Plan</b></div><div>02<br><b>Design</b></div><div>03<br><b>Build</b></div><div>04<br><b>Test</b></div><div class="wide">05<br><b>Review</b></div></div>
+        <ul><li>Controls rows and columns.</li><li>Can define areas and track sizes.</li><li>Useful for galleries and page layouts.</li></ul>
+      </section>
+    </div>
+    <div class="decision"><strong>Which one should I use?</strong><p>Use Flexbox for a row or column of items. Use Grid when you need to arrange items in both rows and columns. It is also fine to use both in the same page.</p></div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="index.html">Raghav<span>.</span></a><p>CSS layout comparison · P13</p><p>© 2026 Raghav</p></div>
+  </footer>
+</body>
+</html>
