@@ -4,7 +4,7 @@ This repository contains my web development practical work. It includes a studen
 
 ## About the portfolio
 
-- **Name:** Raghav
+- **Name:** Mantena Mourya Raghava Varma
 - **College:** S-VYASA
 - **Course:** BTech Computer Science and Engineering (AI/ML)
 - **Year:** First year
