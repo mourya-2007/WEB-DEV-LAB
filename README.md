@@ -1,10 +1,20 @@
-# WEB-DEV-LAB — Portfolio Practical Assignment (P1–P13)
+# WEB-DEV-LAB — Web Development Practicals (P1–P13)
 
-A student portfolio and a set of focused layout demonstrations created for the Terminal, Git & GitHub and HTML/CSS practical modules. The sample identity and contact details are fictional placeholders; replace them before publishing as your personal portfolio.
+This repository contains my web development practical work. It includes a student portfolio and separate pages for the newspaper Grid layout and the Flexbox vs Grid comparison.
 
-## Live locally
+## About the portfolio
 
-No build tools are required. Clone the repository and open `index.html` in a browser, or use VS Code Live Server.
+- **Name:** Raghav
+- **College:** S-VYASA
+- **Course:** BTech Computer Science and Engineering (AI/ML)
+- **Year:** First year
+- **Location:** Bengaluru, India
+
+The portfolio reflects my current interests in programming and web development. The skills and project descriptions are learning-stage summaries, not claims of professional experience.
+
+## Run the pages
+
+No build tools are needed. Clone the repository and open the HTML files in a browser, or use VS Code Live Server.
 
 ```bash
 git clone https://github.com/mourya-2007/WEB-DEV-LAB.git
@@ -13,44 +23,48 @@ cd WEB-DEV-LAB
 
 ## Pages
 
-- `bio.html` — standalone semantic student bio page (P5)
-- `index.html` — full semantic, responsive portfolio (P6–P10, P12)
-- `newspaper.html` — newspaper-style three-column CSS Grid layout (P11)
-- `layout-comparison.html` — Flexbox vs Grid demonstration (P13)
-- `style.css`, `newspaper.css`, `comparison.css` — layout and design styles
-- `script.js` — accessible mobile navigation toggle
-- `practicals/ASSIGNMENT-GUIDE.md` — task-by-task explanation, terminal commands and verification checklist for P1–P13
+- `index.html` — main portfolio (P6–P10 and P12)
+- `bio.html` — semantic student bio page (P5)
+- `newspaper.html` — three-column newspaper layout using CSS Grid (P11)
+- `layout-comparison.html` — Flexbox and Grid examples (P13)
+- `style.css` — shared styles, design tokens, responsive layout, Flexbox and project Grid
+- `newspaper.css` — newspaper layout styles
+- `comparison.css` — Flexbox and Grid comparison styles
+- `script.js` — mobile navigation toggle
+- `practicals/ASSIGNMENT-GUIDE.md` — instructions and verification checklist for P1–P13
 
 ## Practical coverage
 
-| Practical | Deliverable |
+| Practical | Work included |
 |---|---|
-| P1 | Project folder and terminal navigation guide |
-| P2 | Portfolio repository and initial project commit |
-| P3 | Feature branch and pull-request workflow |
-| P4 | This README plus version-tag instructions |
-| P5 | Standalone semantic bio page (`bio.html`) |
-| P6 | Full portfolio structure |
-| P7 | CSS custom properties and typography system |
-| P8 | Sticky navbar and positioned hero/card composition |
-| P9 | Responsive navigation and Flexbox layouts |
-| P10 | Flexbox portfolio header and footer |
-| P11 | Three-column newspaper layout using CSS Grid |
-| P12 | Responsive projects grid using CSS Grid |
-| P13 | Flexbox vs Grid comparison page |
+| P1 | Terminal navigation and folder setup guide |
+| P2 | Git repository and initial commit workflow |
+| P3 | Feature branch and pull request workflow |
+| P4 | README and version tags |
+| P5 | Semantic bio page |
+| P6 | Portfolio page structure |
+| P7 | CSS custom properties and typography |
+| P8 | Sticky navigation and overlapping positioned cards |
+| P9 | Responsive navigation and Flexbox |
+| P10 | Flexbox header, navigation and footer |
+| P11 | Three-column newspaper layout with CSS Grid |
+| P12 | Responsive projects grid |
+| P13 | Flexbox vs Grid comparison |
 
-## Replace the placeholders
+## Git tags
 
-The example name is **Alex Morgan** and the email is **hello@example.com**. Update these in `index.html` before using this as a real portfolio. Project descriptions and skill levels are sample content.
+The repository includes these practical version tags:
 
-## Git workflow and version tags
+- `v1.0.0` — portfolio foundations
+- `v1.1.0` — responsive portfolio
+- `v2.0.0` — advanced CSS layouts
 
-See [the practical guide](practicals/ASSIGNMENT-GUIDE.md) for the commands and a suggested workflow. Suggested release tags: `v1.0.0` (foundations), `v1.1.0` (responsive portfolio), and `v2.0.0` (advanced layouts).
+List local tags with `git tag` and publish tags with `git push origin --tags`.
 
 ## Notes
 
-P1 asks you to demonstrate terminal navigation on your own computer. The command sequence and expected results are documented in the guide, but a GitHub commit cannot prove that commands were executed on your local machine. Run them locally and capture your own terminal screenshot if your instructor requires evidence.
+P1 terminal commands must be run on the local computer. A GitHub repository cannot prove local terminal activity. Run the commands yourself and keep a screenshot only if your instructor asks for evidence.
 
 ---
 
-Created for an educational web development lab. Replace all fictional content with your own before public use.
+Created as coursework for a web development lab.
