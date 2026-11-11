@@ -13,7 +13,8 @@ cd WEB-DEV-LAB
 
 ## Pages
 
-- `index.html` — semantic, responsive student portfolio (P5–P10, P12)
+- `bio.html` — standalone semantic student bio page (P5)
+- `index.html` — full semantic, responsive portfolio (P6–P10, P12)
 - `newspaper.html` — newspaper-style three-column CSS Grid layout (P11)
 - `layout-comparison.html` — Flexbox vs Grid demonstration (P13)
 - `style.css`, `newspaper.css`, `comparison.css` — layout and design styles
@@ -28,7 +29,7 @@ cd WEB-DEV-LAB
 | P2 | Portfolio repository and initial project commit |
 | P3 | Feature branch and pull-request workflow |
 | P4 | This README plus version-tag instructions |
-| P5 | Semantic bio page sections |
+| P5 | Standalone semantic bio page (`bio.html`) |
 | P6 | Full portfolio structure |
 | P7 | CSS custom properties and typography system |
 | P8 | Sticky navbar and positioned hero/card composition |
