@@ -12,15 +12,6 @@ This repository contains my web development practical work. It includes a studen
 
 The portfolio reflects my current interests in programming and web development. The skills and project descriptions are learning-stage summaries, not claims of professional experience.
 
-## Run the pages
-
-No build tools are needed. Clone the repository and open the HTML files in a browser, or use VS Code Live Server.
-
-```bash
-git clone https://github.com/mourya-2007/WEB-DEV-LAB.git
-cd WEB-DEV-LAB
-```
-
 ## Pages
 
 - `index.html` — main portfolio (P6–P10 and P12)
@@ -58,5 +49,3 @@ The repository includes these practical version tags:
 - `v1.0.0` — portfolio foundations
 - `v1.1.0` — responsive portfolio
 - `v2.0.0` — advanced CSS layouts
-
-List local tags with `git tag` and publish tags with `git push origin --tags`.
