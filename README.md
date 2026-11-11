@@ -5,7 +5,7 @@ This repository contains my web development practical work. It includes a studen
 ## About the portfolio
 
 - **Name:** Mantena Mourya Raghava Varma
-- **College:** S-VYASA
+- **College:** Bosscoder School Of Technology
 - **Course:** BTech Computer Science and Engineering (AI/ML)
 - **Year:** First year
 - **Location:** Bengaluru, India
@@ -60,11 +60,3 @@ The repository includes these practical version tags:
 - `v2.0.0` — advanced CSS layouts
 
 List local tags with `git tag` and publish tags with `git push origin --tags`.
-
-## Notes
-
-P1 terminal commands must be run on the local computer. A GitHub repository cannot prove local terminal activity. Run the commands yourself and keep a screenshot only if your instructor asks for evidence.
-
----
-
-Created as coursework for a web development lab.
