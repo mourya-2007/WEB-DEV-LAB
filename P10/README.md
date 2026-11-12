@@ -1,11 +1,11 @@
-# P10 — Flexbox Layout
+# P10 — Portfolio Header and Footer with Advanced Flexbox
 
-**Aim:** Align header, navigation and footer elements using Flexbox.
+**Aim:** Arrange the portfolio header and footer using Flexbox.
 
-**Question:** Use display:flex, align-items, justify-content, gap and flex-wrap.
+**Question:** Use `display: flex`, `justify-content`, `align-items`, `gap` and `flex-wrap`.
 
-**Program:** See `.navbar`, `.nav-links`, `.contact-inner` and `.footer-inner` in [style.css](../style.css).
+**Program:** See the header, navigation and footer rules in [style.css](../style.css).
 
-**Expected output:** Header and footer items aligned in a row, with responsive wrapping where needed.
+**Output:** Header and footer content is neatly aligned.
 
-**Screenshot:** Save the actual browser output as `output/output.png`.
+**Screenshot:** Save the browser screenshot in `output/output.png`.
