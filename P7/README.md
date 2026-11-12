@@ -4,8 +4,8 @@
 
 **Question:** Define reusable colours, spacing and font sizes using custom properties.
 
-**Program:** See the `:root`, `body` and heading rules in [style.css](../style.css).
+**Program files:** [index.html](index.html) and [style.css](style.css).
 
-**Output:** The portfolio uses consistent colours, spacing and text styles.
+**Output:** A page styled using reusable CSS variables and typography.
 
-**Screenshot:** Save a browser screenshot in `output/output.png`.
+**Screenshot:** Open `index.html` in a browser and save your screenshot in the `output` folder.
