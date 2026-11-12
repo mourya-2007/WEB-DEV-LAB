@@ -4,8 +4,8 @@
 
 **Question:** Use `display: grid` and `grid-template-columns` to arrange the stories.
 
-**Program:** [newspaper.html](../newspaper.html) and [newspaper.css](../newspaper.css).
+**Program files:** [index.html](index.html) and [style.css](style.css).
 
-**Output:** A newspaper-style layout with three columns on a wide screen.
+**Output:** Three columns on a wide screen, changing to one column on a small screen.
 
-**Screenshot:** Save desktop and mobile screenshots in the output folder.
+**Screenshot:** Save desktop and mobile screenshots in the `output` folder.
