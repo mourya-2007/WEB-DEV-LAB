@@ -1,0 +1,26 @@
+body { margin: 0; font-family: Arial, sans-serif; color: #222; }
+header, footer { padding: 20px; text-align: center; background: #e9eee6; }
+main { max-width: 800px; margin: 30px auto; padding: 20px; }
+section { margin-bottom: 35px; }
+.flex-layout {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px;
+  background: #e1eadc;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.flex-layout div, .grid-layout div {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border: 1px solid #c8d2c3;
+}
+@media (max-width: 550px) {
+  .flex-layout { flex-direction: column; }
+  .grid-layout { grid-template-columns: 1fr; }
+}
