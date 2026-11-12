@@ -1,0 +1,29 @@
+:root {
+  --main-color: #526b50;
+  --light-color: #eef2ec;
+  --text-color: #252525;
+  --page-gap: 24px;
+  --font-main: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: var(--page-gap);
+  font-family: var(--font-main);
+  color: var(--text-color);
+  background: var(--light-color);
+}
+main {
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+}
+.tag { color: var(--main-color); font-size: 12px; }
+h1 { font-size: 36px; line-height: 1.2; }
+p { font-size: 16px; line-height: 1.6; }
+button {
+  padding: 10px 18px;
+  color: white;
+  background: var(--main-color);
+  border: 0;
+}
