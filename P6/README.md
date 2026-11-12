@@ -1,11 +1,11 @@
-# P6 — Personal Portfolio
+# P6 — Full Portfolio Page Structure in Semantic HTML
 
-**Aim:** Create a personal portfolio webpage.
+**Aim:** Build a basic portfolio page with semantic HTML.
 
-**Question:** Build a portfolio with an introduction, About, Skills, Projects and Contact sections.
+**Question:** Include Home, About, Skills, Projects and Contact sections.
 
-**Program:** See [index.html](../index.html), [style.css](../style.css) and [script.js](../script.js).
+**Program:** [index.html](../index.html)
 
-**Expected output:** A complete personal portfolio webpage.
+**Output:** A complete portfolio page with the required sections.
 
-**Screenshot:** Open index.html in a browser and save the actual page as `output/output.png`.
+**Screenshot:** Open the page in a browser and save it in `output/output.png`.
