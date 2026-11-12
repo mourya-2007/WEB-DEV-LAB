@@ -1,11 +1,11 @@
-# P11 — Newspaper Layout using CSS Grid
+# P11 — Newspaper-Style Three-Column Layout with CSS Grid
 
-**Aim:** Create a three-column newspaper-style page using CSS Grid.
+**Aim:** Create a newspaper page using a three-column CSS Grid.
 
-**Question:** Arrange a lead story, side story and notes in a responsive grid.
+**Question:** Use `display: grid` and `grid-template-columns` to arrange the stories.
 
-**Program:** See [newspaper.html](../newspaper.html) and [newspaper.css](../newspaper.css).
+**Program:** [newspaper.html](../newspaper.html) and [newspaper.css](../newspaper.css).
 
-**Expected output:** Three columns on desktop and one column on smaller screens.
+**Output:** A newspaper-style layout with three columns on a wide screen.
 
-**Screenshot:** Save desktop and mobile browser screenshots in the output directory.
+**Screenshot:** Save desktop and mobile screenshots in the output folder.
