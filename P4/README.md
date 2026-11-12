@@ -1,29 +1,27 @@
-# P4 — README and Git tags
+# P4 — GitHub README and Version Tags
 
-**Aim:** Document a project using Markdown and mark versions with Git tags.
+**Aim:** Write a simple README using Markdown and create version tags.
 
-**README Markdown example:**
+**Markdown example**
 ```markdown
-# WEB-DEV-LAB
+# My Portfolio
+A simple personal portfolio website.
+
 ## Technologies
 - HTML
 - CSS
 - JavaScript
-- Git
-- GitHub
 ```
 
-**Commands:**
+**Commands**
 ```bash
-git tag -a v1.0.0 -m "HTML and CSS foundations"
+git tag -a v1.0.0 -m "First version"
 git push origin v1.0.0
-git tag -a v1.1.0 -m "Responsive portfolio"
-git push origin v1.1.0
-git tag -a v2.0.0 -m "Advanced CSS layouts"
-git push origin v2.0.0
 git tag
 ```
 
-**Expected output:** The tags v1.0.0, v1.1.0 and v2.0.0 are listed.
+**Output:** A README displayed on GitHub and a version tag.
 
-**Screenshot:** Save your own GitHub Tags page screenshot as `output/output.png`.
+**Note:** Tags already created in this repository include `v1.0.0`, `v1.1.0` and `v2.0.0`. Do not recreate them.
+
+**Screenshot:** Save the GitHub README or Tags page screenshot in `output/output.png`.
