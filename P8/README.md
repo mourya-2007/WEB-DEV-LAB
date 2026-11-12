@@ -1,11 +1,11 @@
-# P8 — Sticky Navbar and CSS Positioning
+# P8 — Sticky Navbar and Card Overlay Using CSS Positioning
 
-**Aim:** Create a sticky navigation bar and overlapping cards.
+**Aim:** Use CSS positioning to keep the navigation visible and overlap cards.
 
-**Question:** Demonstrate sticky, relative and absolute positioning, z-index and transform.
+**Question:** Practise `position: sticky`, `relative`, `absolute` and `z-index`.
 
-**Program:** See `.site-header`, `.hero-art`, `.art-card-back` and `.art-card-front` in [style.css](../style.css).
+**Program:** See the navbar and hero card rules in [style.css](../style.css).
 
-**Expected output:** A navbar that stays at the top while scrolling and overlapping hero cards.
+**Output:** A sticky navigation bar and overlapping cards.
 
-**Screenshot:** Save the actual browser output as `output/output.png`.
+**Screenshot:** Save the browser screenshot in `output/output.png`.
