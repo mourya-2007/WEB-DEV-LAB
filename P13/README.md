@@ -1,11 +1,11 @@
-# P13 — Flexbox vs CSS Grid
+# P13 — Choosing Between Flexbox and Grid for a Shared Layout
 
-**Aim:** Compare Flexbox and CSS Grid through practical examples.
+**Aim:** Compare Flexbox and CSS Grid on one page.
 
-**Question:** Demonstrate Flexbox for a navigation row and Grid for a project gallery.
+**Question:** Use Flexbox for a one-dimensional row and Grid for a two-dimensional card layout.
 
-**Program:** See [layout-comparison.html](../layout-comparison.html) and [comparison.css](../comparison.css).
+**Program:** [layout-comparison.html](../layout-comparison.html) and [comparison.css](../comparison.css).
 
-**Expected output:** A page showing a Flexbox navigation example and a CSS Grid gallery.
+**Output:** One page showing examples of both layout methods.
 
-**Screenshot:** Save the actual browser output as `output/output.png`.
+**Screenshot:** Save the browser screenshot in `output/output.png`.
