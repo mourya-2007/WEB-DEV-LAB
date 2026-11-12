@@ -2,10 +2,10 @@
 
 **Aim:** Arrange portfolio project cards using CSS Grid.
 
-**Question:** Practise `grid-template-columns`, `minmax()`, `gap` and responsive grid layout.
+**Question:** Practise `grid-template-columns`, `minmax()`, `gap` and `grid-column`.
 
-**Program:** See the project grid in [style.css](../style.css) and the projects section in [index.html](../index.html).
+**Program files:** [index.html](index.html) and [style.css](style.css).
 
-**Output:** Project cards arranged in a responsive grid.
+**Output:** A project gallery with a featured card and a responsive grid.
 
-**Screenshot:** Save the browser screenshot in `output/output.png`.
+**Screenshot:** Open `index.html` in a browser and save your screenshot in the `output` folder.
