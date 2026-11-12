@@ -1,11 +1,11 @@
-# P9 — Responsive Design
+# P9 — Responsive Navbar and Card Grid Using Flexbox
 
-**Aim:** Make the portfolio responsive using media queries and JavaScript.
+**Aim:** Make the navigation and cards adjust to different screen sizes.
 
-**Question:** Adapt the navigation and project cards for mobile screens.
+**Question:** Use Flexbox, a media query and a small JavaScript menu toggle.
 
-**Program:** See the responsive media query in [style.css](../style.css) and the menu code in [script.js](../script.js).
+**Program:** See the responsive rules in [style.css](../style.css) and the menu toggle in [script.js](../script.js).
 
-**Expected output:** Desktop navigation and two project columns; on a narrow screen, a toggle menu and single-column project cards.
+**Output:** The navigation and cards adjust for a narrow screen.
 
-**Screenshot:** Save desktop and mobile screenshots in this folder's output directory. Name them `desktop.png` and `mobile.png`.
+**Screenshot:** Save desktop and mobile screenshots as `output/desktop.png` and `output/mobile.png`.
