@@ -1,11 +1,11 @@
-# P7 — CSS Variables and Typography
+# P7 — Design Tokens and Typography System in CSS
 
-**Aim:** Apply reusable CSS variables and typography.
+**Aim:** Use CSS variables and simple typography rules.
 
-**Question:** Use CSS custom properties, colours, fonts and responsive text sizing.
+**Question:** Define reusable colours, spacing and font sizes using custom properties.
 
-**Program:** See the `:root`, body and typography rules in [style.css](../style.css).
+**Program:** See the `:root`, `body` and heading rules in [style.css](../style.css).
 
-**Expected output:** A webpage with consistent colours, spacing and typography.
+**Output:** The portfolio uses consistent colours, spacing and text styles.
 
-**Screenshot:** Save a browser screenshot showing the styled portfolio as `output/output.png`.
+**Screenshot:** Save a browser screenshot in `output/output.png`.
