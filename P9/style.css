@@ -8,6 +8,7 @@ body { margin: 0; font-family: Arial, sans-serif; }
   background: #e6eee3;
 }
 nav { display: flex; gap: 20px; }
+nav.hide { display: none; }
 nav a { color: #222; text-decoration: none; }
 button { padding: 8px 12px; }
 main { max-width: 900px; margin: 30px auto; padding: 20px; }
