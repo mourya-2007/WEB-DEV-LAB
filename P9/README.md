@@ -4,8 +4,8 @@
 
 **Question:** Use Flexbox, a media query and a small JavaScript menu toggle.
 
-**Program:** See the responsive rules in [style.css](../style.css) and the menu toggle in [script.js](../script.js).
+**Program files:** [index.html](index.html), [style.css](style.css) and [script.js](script.js).
 
 **Output:** The navigation and cards adjust for a narrow screen.
 
-**Screenshot:** Save desktop and mobile screenshots as `output/desktop.png` and `output/mobile.png`.
+**Screenshot:** Save desktop and mobile screenshots in the `output` folder as `desktop.png` and `mobile.png`.
