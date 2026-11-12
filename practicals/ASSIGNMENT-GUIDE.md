@@ -1,138 +1,52 @@
-# Practical Assignment Guide — P1 to P13
+# Web Development Lab — Assignment Guide
 
-This guide explains what each practical demonstrates, where to find the work, and how to verify it. The main portfolio is the shared project; the newspaper and comparison pages are separate focused demonstrations.
+Follow the order shown in the instructor's assignment sheet.
 
-## Module 1 — Terminal, Git & GitHub
+## Module 1: Terminal, Git & GitHub
 
-### P1 — Project folder and terminal navigation
+1. **P1 — Project folder and terminal navigation**  
+   Practise `pwd`, `mkdir`, `cd` and `ls` in Terminal. See [P1](../P1/README.md).
 
-**Goal:** Create a local project directory and move around it using the terminal.
+2. **P2 — Portfolio repo with an initial commit**  
+   Practise `git init`, `git status`, `git add` and `git commit`. See [P2](../P2/README.md).
 
-Run these commands one at a time:
+3. **P3 — Feature-branch Git workflow**  
+   Create a branch, commit a change, push it and open a Pull Request. See [P3](../P3/README.md).
 
-```bash
-pwd                         # print the current directory
-mkdir WEB-DEV-LAB           # create the project folder
-cd WEB-DEV-LAB              # enter the folder
-mkdir images practicals     # create subfolders
-ls                          # list files and folders
-cd practicals               # move into practicals
-pwd                         # confirm the current location
-cd ..                       # move one level up
-```
+4. **P4 — GitHub README and version tags**  
+   Write a Markdown README and view/create Git tags. See [P4](../P4/README.md).
 
-**Verify:** `pwd` ends in `WEB-DEV-LAB` after `cd ..`; `ls` shows the folders. If you cloned this repository, do not create a second nested folder: run `cd WEB-DEV-LAB` from its parent instead. Capture your own terminal screenshot if required by your instructor.
+## Module 2: HTML & CSS foundations
 
-### P2 — Portfolio repository and initial commit
+5. **P5 — Semantic bio page**  
+   Use semantic HTML to make a simple bio page. Program: [P5/index.html](../P5/index.html).
 
-**Goal:** Track the project in Git and publish it to GitHub. This assignment repository already exists as `mourya-2007/WEB-DEV-LAB`; the portfolio files are committed here.
+6. **P6 — Full portfolio page structure in semantic HTML**  
+   Make a portfolio with About, Skills, Projects and Contact sections. Program: [P6/index.html](../P6/index.html).
 
-```bash
-git init
-git status
-git add .
-git commit -m "Add initial portfolio structure"
-git branch -M main
-git remote add origin https://github.com/mourya-2007/WEB-DEV-LAB.git
-git push -u origin main
-```
+7. **P7 — Design tokens and typography system in CSS**  
+   Use CSS variables for colours, spacing and typography. Program: [P7/index.html](../P7/index.html).
 
-If you cloned the existing repository, skip `git init`, `git remote add origin` and the initial push; use `git pull` to sync instead. Check the GitHub repository page to confirm the files are present.
+8. **P8 — Sticky navbar and card overlay using CSS positioning**  
+   Practise sticky, relative and absolute positioning and z-index. Program: [P8/index.html](../P8/index.html).
 
-### P3 — Feature-branch Git workflow
+9. **P9 — Responsive navbar and card grid using Flexbox**  
+   Use Flexbox, a media query and a JavaScript menu toggle. Program: [P9/index.html](../P9/index.html).
 
-**Goal:** Make a change on a separate branch and merge it through a pull request.
+## Module 3: CSS layout systems
 
-```bash
-git switch -c feature/portfolio-improvements
-# edit a file, then:
-git status
-git add .
-git commit -m "Improve portfolio layout"
-git push -u origin feature/portfolio-improvements
-```
+10. **P10 — Portfolio header and footer with advanced Flexbox**  
+    Align the header and footer using Flexbox. Program: [P10/index.html](../P10/index.html).
 
-Open a pull request from `feature/portfolio-improvements` into `main`, review the diff, then merge it. This repository uses a feature branch and pull request for the submitted project changes.
+11. **P11 — Newspaper-style three-column layout with CSS Grid**  
+    Create a three-column newspaper layout that stacks on small screens. Program: [P11/index.html](../P11/index.html).
 
-### P4 — GitHub README and version tags
+12. **P12 — Portfolio projects grid with advanced CSS Grid**  
+    Arrange project cards using Grid, including a featured card. Program: [P12/index.html](../P12/index.html).
 
-**Goal:** Explain the project and mark meaningful versions. The root `README.md` documents setup, pages and P1–P13 coverage.
+13. **P13 — Choosing between Flexbox and Grid for a shared layout**  
+    Show a Flexbox row and a CSS Grid layout on the same page. Program: [P13/index.html](../P13/index.html).
 
-```bash
-git tag -a v1.0.0 -m "HTML and CSS foundations"
-git push origin v1.0.0
-git tag -a v1.1.0 -m "Responsive portfolio"
-git push origin v1.1.0
-git tag -a v2.0.0 -m "Advanced CSS layouts"
-git push origin v2.0.0
-git tag                         # list local tags
-```
+## Screenshots
 
-Create tags after the corresponding work is committed. If you create tags from a different commit, make sure the version description matches that commit.
-
-## Module 2 — HTML & CSS foundations
-
-### P5 — Semantic bio page
-
-**Goal:** Use meaningful HTML elements rather than generic containers for everything. The About, Skills and Contact areas in `index.html` use `header`, `nav`, `main`, `section`, `article` and `footer`. Headings follow a logical hierarchy and the page declares its language and viewport.
-
-**Verify:** Inspect the page source and confirm there is one main content region, labelled navigation and section headings.
-
-### P6 — Full portfolio page structure in semantic HTML
-
-**Goal:** Build a complete page with introduction, About, Skills, Projects and Contact content. See `index.html`.
-
-**Verify:** Use the navbar links to jump to each section. Confirm all sections have meaningful headings and project cards use `article` elements.
-
-### P7 — Design tokens and typography system in CSS
-
-**Goal:** Centralize reusable colours, fonts and spacing. See the `:root` custom properties at the top of `style.css`, plus the heading and body typography rules.
-
-**Verify:** Change `--accent` or `--space` in `:root` and observe the design update consistently.
-
-### P8 — Sticky navbar and card overlay using CSS positioning
-
-**Goal:** Keep navigation visible while scrolling and layer decorative card elements. See `.site-header { position: sticky; top: 0; }`, `.hero-art`, `.art-circle`, `.art-card` and `.art-stamp` in `style.css`.
-
-**Verify:** Scroll the portfolio and observe the navbar remain at the top; inspect the hero artwork for overlapping positioned elements.
-
-### P9 — Responsive navbar and card grid using Flexbox
-
-**Goal:** Adapt navigation and card layout for smaller screens. The navigation uses Flexbox and a JavaScript toggle; the projects use a responsive grid that becomes one column on small screens. See `style.css` and `script.js`.
-
-**Verify:** Resize the browser below 760px, open the menu and check the project cards stack vertically.
-
-## Module 3 — CSS layout systems
-
-### P10 — Portfolio header and footer with advanced Flexbox
-
-**Goal:** Align logo, navigation and footer content with Flexbox. See `.navbar`, `.nav-links`, `.footer-inner` and `.contact-inner` in `style.css`.
-
-**Verify:** Inspect these elements in browser DevTools and confirm their computed display is flex.
-
-### P11 — Newspaper-style three-column layout with CSS Grid
-
-**Goal:** Create an editorial page with a lead story, side stories and notes. Open `newspaper.html`; the `.news-grid` rule in `newspaper.css` defines three columns.
-
-**Verify:** At desktop width, observe three columns. Below 760px, the layout changes to one column.
-
-### P12 — Portfolio projects grid with advanced CSS Grid
-
-**Goal:** Arrange project cards in a structured grid and allow a featured card to span two columns. See `.project-grid` and `.project-feature` in `style.css`.
-
-**Verify:** At desktop width the featured project spans the full row; at mobile width cards stack.
-
-### P13 — Choosing between Flexbox and Grid for a shared layout
-
-**Goal:** Explain and demonstrate the strengths of each layout system. Open `layout-comparison.html`. The navigation example uses Flexbox; the project tiles use CSS Grid.
-
-**Decision rule:** Flexbox is usually best for one-dimensional alignment (a row or column). Grid is usually best when rows and columns need coordinated control. They can be combined in one interface.
-
-## Final submission checklist
-
-- [ ] Open `index.html`, `newspaper.html` and `layout-comparison.html` in a browser.
-- [ ] Test the portfolio at desktop and mobile widths.
-- [ ] Replace fictional name, email, skills and project details before presenting it as your own.
-- [ ] Run the P1 terminal commands locally and capture evidence if requested.
-- [ ] Run the P4 tag commands locally if your instructor expects tags visible in GitHub.
-- [ ] Add screenshots of your own results if your instructor requires practical evidence.
+Each practical has an `output` folder. Add your own real screenshot there after running the practical. For P9 and other responsive pages, capture both desktop and mobile views. Do not submit the README file as a screenshot.
