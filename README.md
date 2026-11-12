@@ -49,3 +49,12 @@ The repository includes these practical version tags:
 - `v1.0.0` — portfolio foundations
 - `v1.1.0` — responsive portfolio
 - `v2.0.0` — advanced CSS layouts
+
+
+## Practical folders
+
+The practical work is also arranged in separate folders from **P1** to **P13**, in the same order as the assignment sheet. Each practical has a short guide, and P5–P13 include their own basic program files.
+
+- [Open the sequential practical index](PRACTICAL-INDEX.md)
+- Add your real output screenshots to the `output` folder inside each practical.
+- For responsive practicals, include desktop and mobile screenshots.
