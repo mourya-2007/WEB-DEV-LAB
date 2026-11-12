@@ -1,20 +1,24 @@
-# P2 — Git repository and GitHub
+# P2 — Portfolio Repository with an Initial Commit
 
-**Aim:** Create a Git repository and publish it on GitHub.
+**Aim:** Create a Git repository and make the first commit.
 
-**Commands:**
+**Commands**
 ```bash
 git init
 git status
 git add .
 git commit -m "Initial commit"
+```
+
+To connect a new GitHub repository:
+```bash
 git branch -M main
-git remote add origin https://github.com/mourya-2007/WEB-DEV-LAB.git
+git remote add origin YOUR_REPOSITORY_URL
 git push -u origin main
 ```
 
-**Expected output:** Git reports a successful commit and push.
+**Output:** A repository with an initial commit on GitHub.
 
-**Note:** These are the initial setup commands. As this repository already exists, do not repeat `git init` or `git remote add origin` in your existing clone.
+**Note:** This repository is already created. These commands document the workflow; do not repeat `git init` or add another remote in your existing clone.
 
-**Screenshot:** Save your own terminal/GitHub screenshot as `output/output.png`.
+**Screenshot:** Save your GitHub repository/commit screenshot in `output/output.png`.
