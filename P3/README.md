@@ -1,18 +1,18 @@
-# P3 — Branching and Pull Request
+# P3 — Feature-Branch Git Workflow
 
-**Aim:** Practise creating a feature branch and merging it through a pull request.
+**Aim:** Create a feature branch, make a change and merge it using a Pull Request.
 
-**Commands:**
+**Commands**
 ```bash
-git switch -c feature/portfolio-improvements
+git switch -c feature/my-change
 git status
 git add .
-git commit -m "Improve portfolio"
-git push -u origin feature/portfolio-improvements
+git commit -m "Add a feature"
+git push -u origin feature/my-change
 ```
 
-**Steps:** Open GitHub, create a pull request into main, review the changes and merge it.
+On GitHub, open a Pull Request from the feature branch to `main`, then merge it.
 
-**Expected output:** Feature branch and merged pull request visible on GitHub.
+**Output:** A feature branch and a merged Pull Request.
 
-**Screenshot:** Save your own GitHub pull request screenshot as `output/output.png`.
+**Screenshot:** Save the Pull Request screenshot in `output/output.png`.
