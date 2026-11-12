@@ -4,8 +4,8 @@
 
 **Question:** Practise `position: sticky`, `relative`, `absolute` and `z-index`.
 
-**Program:** See the navbar and hero card rules in [style.css](../style.css).
+**Program files:** [index.html](index.html) and [style.css](style.css).
 
-**Output:** A sticky navigation bar and overlapping cards.
+**Output:** A sticky navigation bar and two overlapping cards.
 
-**Screenshot:** Save the browser screenshot in `output/output.png`.
+**Screenshot:** Open `index.html` in a browser and save your screenshot in the `output` folder.
