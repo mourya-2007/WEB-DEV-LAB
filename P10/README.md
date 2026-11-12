@@ -4,8 +4,8 @@
 
 **Question:** Use `display: flex`, `justify-content`, `align-items`, `gap` and `flex-wrap`.
 
-**Program:** See the header, navigation and footer rules in [style.css](../style.css).
+**Program files:** [index.html](index.html) and [style.css](style.css).
 
-**Output:** Header and footer content is neatly aligned.
+**Output:** Header and footer content aligned neatly.
 
-**Screenshot:** Save the browser screenshot in `output/output.png`.
+**Screenshot:** Open `index.html` in a browser and save your screenshot in the `output` folder.
