@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 25px;
+  background: #e6eee3;
+}
+nav { display: flex; gap: 20px; }
+nav a { color: #222; text-decoration: none; }
+button { padding: 8px 12px; }
+main { max-width: 900px; margin: 30px auto; padding: 20px; }
+.cards { display: flex; flex-wrap: wrap; gap: 15px; }
+.card {
+  flex: 1 1 220px;
+  padding: 22px;
+  background: #f1f4ef;
+  border: 1px solid #d0d8cc;
+}
+@media (max-width: 600px) {
+  .header { flex-wrap: wrap; gap: 12px; }
+  nav { width: 100%; flex-direction: column; gap: 8px; }
+  .cards { flex-direction: column; }
+}
