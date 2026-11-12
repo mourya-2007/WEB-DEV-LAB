@@ -1,0 +1,17 @@
+body { margin: 0; font-family: Georgia, serif; color: #222; }
+header, footer { padding: 20px; text-align: center; background: #e9eee6; }
+header p { letter-spacing: 3px; font-size: 12px; }
+.news-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.news-grid article { padding: 18px; border: 1px solid #ccc; }
+.main-story { background: #f3f5f1; }
+h2 { margin-top: 0; }
+@media (max-width: 700px) {
+  .news-grid { grid-template-columns: 1fr; }
+}
