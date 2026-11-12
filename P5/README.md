@@ -1,11 +1,11 @@
-# P5 — Semantic HTML Bio Page
+# P5 — Semantic Bio Page
 
-**Aim:** Create a student bio using semantic HTML.
+**Aim:** Create a simple personal bio page using semantic HTML elements.
 
-**Question:** Build a bio page using header, main, article, section and footer elements.
+**Question:** Use `header`, `nav`, `main`, `section` and `footer`.
 
-**Program:** See [bio.html](../bio.html). This is the practical's existing bio page.
+**Program:** [bio.html](../bio.html)
 
-**Expected output:** A student bio showing education, interests, skills and projects.
+**Output:** A bio page showing basic student information, education and interests.
 
-**Screenshot:** Open bio.html in a browser and save the actual page as `output/output.png`.
+**Screenshot:** Open the page in a browser and save it in `output/output.png`.
