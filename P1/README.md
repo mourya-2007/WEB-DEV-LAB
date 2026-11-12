@@ -1,21 +1,19 @@
-# P1 — Terminal and folder navigation
+# P1 — Project Folder and Terminal Navigation
 
-**Aim:** Practise basic terminal commands.
+**Aim:** Create a project folder and practise moving through folders in Terminal.
 
-**Question:** Create a project folder and navigate through its subfolders.
-
-**Commands:**
+**Commands**
 ```bash
 pwd
-mkdir WEB-DEV-LAB
-cd WEB-DEV-LAB
-mkdir images practicals
+mkdir MyPortfolio
+cd MyPortfolio
+mkdir images css
 ls
-cd practicals
+cd css
 pwd
 cd ..
 ```
 
-**Expected output:** A WEB-DEV-LAB folder containing images and practicals. The terminal displays the current directory.
+**Output:** The terminal shows the folder names and current location.
 
-**Screenshot:** Save your own terminal screenshot as `output/output.png`.
+**Screenshot:** Save a terminal screenshot in `output/output.png`.
